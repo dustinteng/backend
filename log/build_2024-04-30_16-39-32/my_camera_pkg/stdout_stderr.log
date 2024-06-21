@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target camera_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/camera_node.dir/src/camera_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable camera_node[0m
+/usr/bin/ld: CMakeFiles/camera_node.dir/src/camera_node.cpp.o: in function `CameraNode::CameraNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+camera_node.cpp:(.text._ZN10CameraNodeC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN10CameraNodeC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x111): undefined reference to `cv::VideoCapture::VideoCapture()'
+/usr/bin/ld: camera_node.cpp:(.text._ZN10CameraNodeC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN10CameraNodeC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x150): undefined reference to `cv::VideoCapture::open(int, int)'
+/usr/bin/ld: camera_node.cpp:(.text._ZN10CameraNodeC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN10CameraNodeC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x165): undefined reference to `cv::VideoCapture::isOpened() const'
+/usr/bin/ld: camera_node.cpp:(.text._ZN10CameraNodeC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN10CameraNodeC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x45a): undefined reference to `cv::VideoCapture::~VideoCapture()'
+/usr/bin/ld: CMakeFiles/camera_node.dir/src/camera_node.cpp.o: in function `CameraNode::~CameraNode()':
+camera_node.cpp:(.text._ZN10CameraNodeD2Ev[_ZN10CameraNodeD5Ev]+0x2c): undefined reference to `cv::VideoCapture::release()'
+/usr/bin/ld: camera_node.cpp:(.text._ZN10CameraNodeD2Ev[_ZN10CameraNodeD5Ev]+0x50): undefined reference to `cv::VideoCapture::~VideoCapture()'
+/usr/bin/ld: CMakeFiles/camera_node.dir/src/camera_node.cpp.o: in function `CameraNode::publish_image(image_transport::Publisher&)':
+camera_node.cpp:(.text._ZN10CameraNode13publish_imageERN15image_transport9PublisherE[_ZN10CameraNode13publish_imageERN15image_transport9PublisherE]+0x73): undefined reference to `cv::VideoCapture::read(cv::_OutputArray const&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/camera_node.dir/build.make:181: camera_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,7 @@
+[01m[K/home/teng/ros2_ws/src/my_camera_pkg/src/camera_node.cpp:[m[K In constructor ‘[01m[KCameraNode::CameraNode()[m[K’:
+[01m[K/home/teng/ros2_ws/src/my_camera_pkg/src/camera_node.cpp:10:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcapture_[m[K’ was not declared in this scope
+   10 |             [01;31m[Kcapture_[m[K.open(0, cv::CAP_V4L2);
+      |             [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/camera_node.dir/build.make:76: CMakeFiles/camera_node.dir/src/camera_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

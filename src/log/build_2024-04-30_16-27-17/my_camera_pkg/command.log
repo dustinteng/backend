@@ -1,0 +1,1 @@
+Invoking command in '/home/teng/ros2_ws/src/build/my_camera_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/teng/ros2_ws/install/ps5_controller:/opt/ros/humble /usr/bin/cmake /home/teng/ros2_ws/src/my_camera_pkg -DCMAKE_INSTALL_PREFIX=/home/teng/ros2_ws/src/install/my_camera_pkg

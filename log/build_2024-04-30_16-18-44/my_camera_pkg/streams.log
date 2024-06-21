@@ -1,0 +1,10 @@
+[0.036s] Invoking command in '/home/teng/ros2_ws/build/my_camera_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/teng/ros2_ws/install/ps5_controller:/home/teng/ros2_ws/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/teng/ros2_ws/build/my_camera_pkg -- -j3 -l3
+[0.348s] -- Configuring incomplete, errors occurred!
+[0.348s] See also "/home/teng/ros2_ws/build/my_camera_pkg/CMakeFiles/CMakeOutput.log".
+[0.351s] [31mCMake Error at CMakeLists.txt:28:
+[0.352s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.352s]   "<!--".
+[0.353s] 
+[0.353s] [0m
+[0.354s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.357s] Invoked command in '/home/teng/ros2_ws/build/my_camera_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/teng/ros2_ws/install/ps5_controller:/home/teng/ros2_ws/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/teng/ros2_ws/build/my_camera_pkg -- -j3 -l3

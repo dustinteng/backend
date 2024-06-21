@@ -1,0 +1,11 @@
+[0.016s] Invoking command in '/home/teng/ros2_ws/build/my_camera_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/teng/ros2_ws/install/ps5_controller:/opt/ros/humble /usr/bin/cmake --build /home/teng/ros2_ws/build/my_camera_pkg -- -j3 -l3
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target camera_node[0m
+[0.111s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_node.dir/src/camera_node.cpp.o[0m
+[3.015s] [01m[K/home/teng/ros2_ws/src/my_camera_pkg/src/camera_node.cpp:[m[K In constructor ‘[01m[KCameraNode::CameraNode()[m[K’:
+[3.015s] [01m[K/home/teng/ros2_ws/src/my_camera_pkg/src/camera_node.cpp:10:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcapture_[m[K’ was not declared in this scope
+[3.015s]    10 |             [01;31m[Kcapture_[m[K.open(0, cv::CAP_V4L2);
+[3.015s]       |             [01;31m[K^~~~~~~~[m[K
+[3.800s] gmake[2]: *** [CMakeFiles/camera_node.dir/build.make:76: CMakeFiles/camera_node.dir/src/camera_node.cpp.o] Error 1
+[3.801s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera_node.dir/all] Error 2
+[3.801s] gmake: *** [Makefile:146: all] Error 2
+[3.803s] Invoked command in '/home/teng/ros2_ws/build/my_camera_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/teng/ros2_ws/install/ps5_controller:/opt/ros/humble /usr/bin/cmake --build /home/teng/ros2_ws/build/my_camera_pkg -- -j3 -l3

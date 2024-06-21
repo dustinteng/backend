@@ -1,0 +1,10 @@
+[0.037s] Invoking command in '/home/teng/ros2_ws/build/my_camera_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/teng/ros2_ws/install/ps5_controller:/opt/ros/humble /usr/bin/cmake --build /home/teng/ros2_ws/build/my_camera_pkg -- -j3 -l3
+[0.337s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_node.dir/src/camera_node.cpp.o[0m
+[0.338s] [01m[K/home/teng/ros2_ws/src/my_camera_pkg/src/camera_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.339s]     1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.339s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.339s] compilation terminated.
+[0.339s] gmake[2]: *** [CMakeFiles/camera_node.dir/build.make:76: CMakeFiles/camera_node.dir/src/camera_node.cpp.o] Error 1
+[0.339s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera_node.dir/all] Error 2
+[0.339s] gmake: *** [Makefile:146: all] Error 2
+[0.339s] Invoked command in '/home/teng/ros2_ws/build/my_camera_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/teng/ros2_ws/install/ps5_controller:/opt/ros/humble /usr/bin/cmake --build /home/teng/ros2_ws/build/my_camera_pkg -- -j3 -l3

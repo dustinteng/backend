@@ -1,0 +1,16 @@
+/home/teng/ros2_ws/install/my_camera_pkg/lib/my_camera_pkg/camera_node
+/home/teng/ros2_ws/install/my_camera_pkg/share/ament_index/resource_index/package_run_dependencies/my_camera_pkg
+/home/teng/ros2_ws/install/my_camera_pkg/share/ament_index/resource_index/parent_prefix_path/my_camera_pkg
+/home/teng/ros2_ws/install/my_camera_pkg/share/my_camera_pkg/environment/ament_prefix_path.sh
+/home/teng/ros2_ws/install/my_camera_pkg/share/my_camera_pkg/environment/ament_prefix_path.dsv
+/home/teng/ros2_ws/install/my_camera_pkg/share/my_camera_pkg/environment/path.sh
+/home/teng/ros2_ws/install/my_camera_pkg/share/my_camera_pkg/environment/path.dsv
+/home/teng/ros2_ws/install/my_camera_pkg/share/my_camera_pkg/local_setup.bash
+/home/teng/ros2_ws/install/my_camera_pkg/share/my_camera_pkg/local_setup.sh
+/home/teng/ros2_ws/install/my_camera_pkg/share/my_camera_pkg/local_setup.zsh
+/home/teng/ros2_ws/install/my_camera_pkg/share/my_camera_pkg/local_setup.dsv
+/home/teng/ros2_ws/install/my_camera_pkg/share/my_camera_pkg/package.dsv
+/home/teng/ros2_ws/install/my_camera_pkg/share/ament_index/resource_index/packages/my_camera_pkg
+/home/teng/ros2_ws/install/my_camera_pkg/share/my_camera_pkg/cmake/my_camera_pkgConfig.cmake
+/home/teng/ros2_ws/install/my_camera_pkg/share/my_camera_pkg/cmake/my_camera_pkgConfig-version.cmake
+/home/teng/ros2_ws/install/my_camera_pkg/share/my_camera_pkg/package.xml

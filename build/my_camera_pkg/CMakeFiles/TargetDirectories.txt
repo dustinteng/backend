@@ -1,0 +1,10 @@
+/home/teng/ros2_ws/build/my_camera_pkg/CMakeFiles/uninstall.dir
+/home/teng/ros2_ws/build/my_camera_pkg/CMakeFiles/my_camera_pkg_uninstall.dir
+/home/teng/ros2_ws/build/my_camera_pkg/CMakeFiles/camera_node.dir
+/home/teng/ros2_ws/build/my_camera_pkg/CMakeFiles/test.dir
+/home/teng/ros2_ws/build/my_camera_pkg/CMakeFiles/edit_cache.dir
+/home/teng/ros2_ws/build/my_camera_pkg/CMakeFiles/rebuild_cache.dir
+/home/teng/ros2_ws/build/my_camera_pkg/CMakeFiles/list_install_components.dir
+/home/teng/ros2_ws/build/my_camera_pkg/CMakeFiles/install.dir
+/home/teng/ros2_ws/build/my_camera_pkg/CMakeFiles/install/local.dir
+/home/teng/ros2_ws/build/my_camera_pkg/CMakeFiles/install/strip.dir

@@ -1,0 +1,9 @@
+[0.343s] Invoking command in '/home/teng/ros2_ws/src/build/twowd_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/teng/ros2_ws/install/ps5_controller:/opt/ros/humble /usr/bin/cmake /home/teng/ros2_ws/src/twowd_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/teng/ros2_ws/src/install/twowd_robot_bringup
+[0.438s] -- The C compiler identification is GNU 11.4.0
+[0.514s] -- The CXX compiler identification is GNU 11.4.0
+[0.539s] -- Detecting C compiler ABI info
+[0.680s] -- Detecting C compiler ABI info - done
+[0.693s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.693s] -- Detecting C compile features
+[0.694s] -- Detecting C compile features - done
+[0.702s] -- Detecting CXX compiler ABI info
